@@ -63,6 +63,7 @@
             "scripts/anaconda.sh",
             "scripts/ipython.sh",
             "scripts/r.sh",
+            "scripts/rserver.sh",
             "scripts/shiny.sh",
             "scripts/apache.sh",
             "scripts/cleanup.sh",
