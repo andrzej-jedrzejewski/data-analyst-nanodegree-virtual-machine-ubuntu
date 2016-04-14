@@ -59,7 +59,6 @@
             "scripts/virtualbox.sh",
             "scripts/key.sh",
             "scripts/java.sh",
-            "scripts/create-ssh-key.sh",
             "scripts/anaconda.sh",
             "scripts/ipython.sh",
             "scripts/r.sh",
