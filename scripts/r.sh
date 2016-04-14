@@ -7,8 +7,4 @@ apt-get update
 sudo apt-get -y install r-base
 
 
-echo "Installing Shiny in progress............"
-sudo su - -c "R -e \"install.packages('shiny', repos = 'http://cran.rstudio.com/')\""
 
-
-apt-get install gdebi-core -y
