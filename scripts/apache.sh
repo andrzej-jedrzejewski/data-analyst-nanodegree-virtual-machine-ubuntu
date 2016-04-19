@@ -14,6 +14,7 @@ cd /etc/apache2/sites-available/
 
 /usr/sbin/a2ensite notebook.conf
 /usr/sbin/a2ensite rstudioserver.conf
+/usr/sbin/a2dissite 000-default.conf
 
 service rstudio-server restart
 service shiny-server restart
