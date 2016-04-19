@@ -4,7 +4,7 @@ c.NotebookApp.certfile = u'/home/ubuntu/.certs/mycert.pem'
 c.NotebookApp.keyfile = u'/home/ubuntu/.certs/mycert.pem'
 # Set ip to '*' to bind on all interfaces (ips) for the public server
 c.NotebookApp.ip = 'localhost'
-c.NotebookApp.password = u'sha1:3412de933a35:433e6f271a4c53917b6f3419acb655a6f4d01c5f'
+c.NotebookApp.password = u'sha1:595b5d7e957a:11f1ecb802491da644e7fa966de4a7b218ade5ba'
 c.NotebookApp.open_browser = False
 
 # It is a good idea to set a known, fixed port for server access
