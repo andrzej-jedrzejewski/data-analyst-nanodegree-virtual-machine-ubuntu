@@ -18,16 +18,16 @@ Pre-installed software:
 
 Access:
 ------------
-* rstudio-server yourDomain.com/shiny/ or ipAddress/rstudio/
-* shiny-server yourDomain.com/shiny/ or ipAddress/shiny/
+* rstudio-server: yourDomain.com/shiny/ or ipAddress/rstudio/
+* shiny-server: yourDomain.com/shiny/ or ipAddress/shiny/
 
 To run notebook, log in your VM as a ubuntu user, go to selected directory and enter
 
 `jupyter notebook`
 
-thereafter, notebook is availavle to you on following url:
+thereafter, notebook is available to you on following url:
 
-https://yourDomain.com/notebook or https://ipAddress/notebook/
+https://yourDomain.com/notebook/ or https://ipAddress/notebook/
 
 Amazon AMI:
 -------------
