@@ -7,10 +7,10 @@
     "profile": "data-analyst",
     "disk_size": "30720",
     "ssh_username": "ubuntu",
-    "ssh_password": "ubuntu",
+    "ssh_password": "nanodegree",
     "output_directory": "/tmp/packer_output_ubuntu/",
     "run_virtualbox_in_background": "false",
     "S3_bucket_name": "andrzejjbucket",
-    "output_format": "ovf"
+    "output_format": "ova"
 
 }

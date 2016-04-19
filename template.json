@@ -38,7 +38,7 @@
       "ssh_password": "{{user `ssh_password`}}",
       "ssh_port": 22,
       "ssh_wait_timeout": "10000s",
-      "shutdown_command": "echo 'shutdown -P now' > /tmp/shutdown.sh; echo 'ubuntu'|sudo -S sh '/tmp/shutdown.sh'",
+      "shutdown_command": "echo 'shutdown -P now' > /tmp/shutdown.sh; echo '{{user `ssh_password`}}' |sudo -S sh '/tmp/shutdown.sh'",
       "output_directory": "{{user `output_directory`}}{{user `profile`}}",
       "format": "{{user `output_format`}}"
     }
@@ -51,7 +51,7 @@
     },
     {
       "type": "shell",
-      "execute_command": "echo 'ubuntu'|sudo -S sh '{{.Path}}'",
+      "execute_command": "echo '{{user `ssh_password`}}'|sudo -S sh '{{.Path}}'",
       "override": {
         "virtualbox-iso": {
           "scripts": [
