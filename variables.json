@@ -10,5 +10,7 @@
     "ssh_password": "ubuntu",
     "output_directory": "/tmp/packer_output_ubuntu/",
     "run_virtualbox_in_background": "false",
-    "S3_bucket_name": "andrzejjbucket"
+    "S3_bucket_name": "andrzejjbucket",
+    "output_format": "ovf"
+
 }
