@@ -4,7 +4,7 @@ gpg -a --export E084DAB9 | sudo apt-key add -
 
 apt-get update
 
-sudo apt-get -y install r-base
+sudo apt-get -y --force-yes install r-base
 
 
 

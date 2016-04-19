@@ -1,13 +1,13 @@
 {
     "os":"Ubuntu_64",
     "os_type":"Debian_64",
-    "iso_url": "http://releases.ubuntu.com/trusty/ubuntu-14.04.4-server-amd64.iso",
-    "iso_checksum": "07e4bb5569814eab41fafac882ba127893e3ff0bdb7ec931c9b2d040e3e94e7a",
+    "iso_url": "http://cdimage.ubuntu.com/releases/14.04.3/release/ubuntu-14.04.3-server-amd64+mac.iso",
+    "iso_checksum": "c2571c4c2fc17bef1fad9e5db5e7afdb4bd29cd8ab51e42f9c036238c4e54caa",
     "iso_checksum_type": "sha256",
     "profile": "data-analyst",
     "disk_size": "30720",
-    "ssh_username": "vagrant",
-    "ssh_password": "vagrant",
+    "ssh_username": "ubuntu",
+    "ssh_password": "ubuntu",
     "output_directory": "/tmp/packer_output_ubuntu/",
     "run_virtualbox_in_background": "false",
     "S3_bucket_name": "andrzejjbucket"

@@ -1,6 +1,8 @@
 cd
 
-wget -O shiny-server.deb http://download3.rstudio.org/ubuntu-12.04/x86_64/shiny-server-1.3.0.403-amd64.deb
-gdebi shiny-server.deb
+apt-get -y install libapparmor1 gdebi-core
+
+wget http://download2.rstudio.org/rstudio-server-0.98.1103-amd64.deb
+sudo gdebi -n rstudio-server-0.98.1103-amd64.deb
 
 cp /tmp/rserver.conf /etc/rstudio/

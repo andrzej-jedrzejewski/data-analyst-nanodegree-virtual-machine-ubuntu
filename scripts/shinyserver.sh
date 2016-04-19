@@ -12,7 +12,6 @@ gdebi -n shiny-server.deb
 
 sudo groupadd shiny-apps
 sudo usermod -aG shiny-apps ubuntu
-sudo usermod -aG shiny-apps vagrant
 sudo usermod -aG shiny-apps shiny
 cd /srv/shiny-server
 sudo chown -R ubuntu:shiny-apps .

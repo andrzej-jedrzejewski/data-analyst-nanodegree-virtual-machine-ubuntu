@@ -1,0 +1,11 @@
+{
+  "Description": "Ubuntu 14.04",
+  "DiskContainers": [ {
+    "Description": "The first image",
+    "UserBucket": {
+      "S3Bucket": "andrzejjbucket",
+      "S3Key" : "Ubuntu_64-data-analyst.ova"
+    }
+  }
+  ]
+}

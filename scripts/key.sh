@@ -1,6 +1,6 @@
 
-adduser ubuntu --disabled-password
-usermod -aG sudo ubuntu
+#adduser ubuntu --disabled-password
+#usermod -aG sudo ubuntu
 
 
 mkdir -p /home/ubuntu/.ssh/
