@@ -47,3 +47,9 @@ Amazon AMI:
 -------------
 * ami-66f47815
 
+#Settings for VirtualBox (to only generate .ovf file for your VB use this instruction):
+
+* in variables.json change '"output_format"' to 'ovf'
+* run script './packer.sh'
+
+
