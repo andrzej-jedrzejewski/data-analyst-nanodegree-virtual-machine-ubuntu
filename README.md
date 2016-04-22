@@ -13,9 +13,9 @@ Requirements
   + CLI [installation](http://docs.aws.amazon.com/cli/latest/userguide/installing.html)
   + VM import specification [website](http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/VMImportPrerequisites.html)
   + Create your own S3 bucket (through website or [CLI](http://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.htm)
-  + Do not forget about export AWS env:
-      'export AWS_ACCESS_KEY=$AWS_ACCESS_KEY_ID
-       export AWS_SECRET_KEY=$AWS_SECRET_ACCESS_KEY'
+  + Do not forget about export AWS env: <br />
+      'export AWS_ACCESS_KEY=YOUR_ACCESS_KEY_ID
+       export AWS_SECRET_KEY=YOUR_SECRET_KEY_ID'
 
 
 #AMI specifications
